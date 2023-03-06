@@ -1,0 +1,76 @@
+@media(max-width:768px){ 
+#main-header .navbar{
+    display:flex;
+flex-direction:column;
+padding:0;
+height:130px;
+justify-content:space-around;
+align-items:center;
+ a{
+    padding:0 5px;
+}
+}
+.content{
+    text-align:center;
+    position:relative;
+    top:50px;
+}
+.flex{
+    display:flex;
+    flex-direction:column;
+}
+
+.flex-grid .row{
+    display:flex;
+    flex-direction:column;
+}
+
+.flex-grid .column{
+   max-width:100%;
+   flex:100%;
+}
+.cases .row{
+    display:flex;
+    flex-direction:column;
+    .column{
+        max-width:100%;
+        flex:100%;
+    }
+} 
+.team{
+    .flex{
+        img{
+            width:75%;
+        }
+    }
+}
+#section-header{
+    text-align:center;
+}
+.flex-columns .column-2{
+    h2{
+        padding:20px;
+        text-align:center;
+    }
+}
+
+#main-header-blog .navbar{
+    display:flex;
+    flex-direction:column;
+    padding:0;
+    height:130px;
+    justify-content:space-around;
+    align-items:center;
+a{
+    padding:0 5px;
+}
+ }
+#main-header-blog{
+    .blog-title{
+        font-size:30px;
+        position:relative;
+        top:-20px;
+    }
+}
+
+ }
